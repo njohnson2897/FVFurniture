@@ -37,7 +37,7 @@ function Footer() {
                 <div className="col-md-4 col-lg-3 offset-lg-2">
                   <h5>
                     <div>
-                      <a className='text-dark' href="https://github.com/njohnson2897/bookmarkd" target="blank">
+                      <a className='text-dark' href="https://github.com/njohnson2897/FVFurniture" target="blank">
                         <img src={github} alt="github logo"/>Github
                       </a>
                       </div>
