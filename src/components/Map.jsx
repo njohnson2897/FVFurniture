@@ -11,8 +11,9 @@ const MapComponent = () => {
     }
 
     const locations = [
-        { lat: 41.8781, lng: -87.6298, title: "Chicago" },
-        { lat: 41.8818, lng: -87.6232, title: "Millennium Park" }
+        { lat: 41.8062, lng: -87.6998, title: "Chicago Furniture Bank"},
+        { lat: 41.7621, lng: -88.3649, title: "Community Foundation of the Fox River Valley"},
+        { lat: 42.0359, lng: -88.2836, title: "Habitat for Humanity of Northern Fox Valley"},
         // Add more locations here
     ];
 
@@ -21,7 +22,7 @@ const MapComponent = () => {
             googleMapsApiKey={import.meta.env.VITE_GOOGLE_API_KEY}>
             <GoogleMap
                 mapContainerStyle={mapStyles}
-                zoom={10}
+                zoom={9}
                 center={defaultCenter}
             >
                 {
