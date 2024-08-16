@@ -18,7 +18,7 @@ const MapComponent = () => {
 
     return (
         <LoadScript
-            googleMapsApiKey={import.meta.env.VITE_API_KEY}>
+            googleMapsApiKey={import.meta.env.VITE_GOOGLE_API_KEY}>
             <GoogleMap
                 mapContainerStyle={mapStyles}
                 zoom={10}
