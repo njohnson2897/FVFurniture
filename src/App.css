@@ -66,4 +66,15 @@ input::placeholder {
   border-radius: 4px;
 }
 
+.column {
+  flex: 1; /* Each column takes equal space */
+  display: flex; /* Enable flexbox for column content */
+  flex-direction: column; /* Arrange items vertically */
+}
+
+.item {
+  padding: 20px;
+  margin: 5px;
+}
+
 

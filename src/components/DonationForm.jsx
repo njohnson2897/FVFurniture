@@ -34,9 +34,9 @@ function DonationForm() {
   };
 
   return (
+    <div>
+        <h1 className="mb-3 mt-1">Make a Donation</h1>
       <form onSubmit={handleSubmit} className="container mt-2 border border-dark mb-3 py-3 rounded"> 
-      <h1 className="mb-4">Make a Donation</h1>
-
       <div className="form-group pb-4">
         <label htmlFor="name">Name:</label>
         <input 
@@ -88,12 +88,13 @@ function DonationForm() {
         />
       </div>
         <div>
-            <label htmlFor='cardinformation'>Card Information:</label>
+            <label className='mt-3' htmlFor='cardinformation'>Card Information:</label>
       <CardElement /> 
       </div>
 
       <button type="submit" disabled={!stripe}>Donate</button>
     </form>
+    </div>
   );
 }
 
