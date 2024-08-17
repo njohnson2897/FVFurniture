@@ -4,8 +4,8 @@ function FurnitureMapPage() {
     return (
         <div className="bg-background p-2">
         <div className="flex justify-between items-center mb-4">
+        <h1>Fox Valley Furniture Options</h1>
           <div className="App my-3">
-            <h3>Fox Valley Furniture Options</h3>
             <select className="border border-zinc-300 rounded-lg p-2 mx-2 my-2">
               <option>Days Open</option>
               <option>Weekdays</option>
