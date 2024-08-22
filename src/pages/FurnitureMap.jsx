@@ -24,8 +24,7 @@ function FurnitureMapPage() {
             <button className="bg-red-500 text-white p-2 rounded-lg my-2">Clear Filters</button>
             <div className="flex space-x-2">
             <div className="flex items-center mb-1">
-          <input type="text" placeholder="Enter an address, city, or ZIP code" className="flex-grow p-2 border border-zinc-300 rounded-lg mx-2 w-25" />
-          <button className="bg-dark text-secondary-foreground p-2 rounded-lg mx-2">Use my Location</button>
+          
         </div>
           </div>
           <div className='d-flex justify-content-center mb-3'>
