@@ -13,6 +13,8 @@ function FurnitureMapPage() {
             </select>
             <select className="border border-zinc-300 rounded-lg p-2 mx-2 my-2">
               <option>Radius</option>
+              <option>2 miles</option>
+              <option>3 miles</option>
               <option>5 miles</option>
               <option>10 miles</option>
             </select>
@@ -29,10 +31,6 @@ function FurnitureMapPage() {
           </div>
           <div className='d-flex justify-content-center mb-3'>
             <MapComponent />
-          </div>
-          <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti error adipisci inventore quidem consequatur blanditiis placeat qui id illo ab dolorem non amet, distinctio, quia autem laborum! Officiis, a? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti error adipisci inventore quidem consequatur blanditiis placeat qui id illo ab dolorem non amet, distinctio, quia autem laborum! Officiis, a? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti error adipisci inventore quidem consequatur blanditiis placeat qui id illo ab dolorem non amet, distinctio, quia autem laborum! Officiis, a? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti error adipisci inventore quidem consequatur blanditiis placeat qui id illo ab dolorem non amet, distinctio, quia autem laborum! Officiis, a? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti error adipisci inventore quidem consequatur blanditiis placeat qui id illo ab dolorem non amet, distinctio, quia autem laborum! Officiis, a? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti error adipisci inventore quidem consequatur blanditiis placeat qui id illo ab dolorem non amet, distinctio, quia autem laborum! Officiis, a? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti error adipisci inventore quidem consequatur blanditiis placeat qui id illo ab dolorem non amet, distinctio, quia autem laborum! Officiis, a? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti error adipisci inventore quidem consequatur blanditiis placeat qui id illo ab dolorem non amet, distinctio, quia autem laborum! Officiis, a?
-            </p>
           </div>
           </div>
         </div>
